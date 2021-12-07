@@ -1,0 +1,23 @@
+{
+  "name": "clira",
+  "version": "0.1.0",
+  "description": "CLI interface to Jira.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dotancohen/clira.git"
+  },
+  "author": "Dotan Cohen",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dotancohen/clira/issues"
+  },
+  "homepage": "https://github.com/dotancohen/clira",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "jira.js": "^2.8.0"
+  }
+}
